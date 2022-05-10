@@ -7,4 +7,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="BumbleBikesLibrary">
+        <HintPath>..\..\..\chapter-4\BumbleBikesLibrary\bin\Debug\net6.0\BumbleBikesLibrary.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
