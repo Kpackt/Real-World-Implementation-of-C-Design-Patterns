@@ -1,3 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using BumbleBikesLibrary;
+using DecoratorExample;
 
-Console.WriteLine("Hello, World!");
+var regularRoadBike = new RoadBike();  //no decorations
+
+var bikeWithBell = new BellDecorator(regularRoadBike);
+bikeWithBell.Ring();
+
+IntegratedHeadLightDecorator bikeWithHeadLights = new IntegratedHeadLightDecorator(regularRoadBike)
+{
+    LightOn = true,
+    PercentBatteryCharge = 95
+};
+
+var totallyTrickedOutBike = new BellDecorator(new IntegratedHeadLightDecorator(regularRoadBike));
+totallyTrickedOutBike.Ring();
+
