@@ -2,21 +2,21 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-1", "chapter-1", "{7B1664DF-1E2D-4131-BD4E-B3FE5C909BAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLogReporter", "WebLogReporter\WebLogReporter.csproj", "{5D15456F-D9CB-4EA8-8812-7855588FDF6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLogReporter", "chapter-1\WebLogReporter\WebLogReporter.csproj", "{5D15456F-D9CB-4EA8-8812-7855588FDF6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-2", "chapter-2", "{EBCB5BD0-1F85-4372-9E67-F64237BDA44F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-3", "chapter-3", "{19484763-2950-47AE-BAFC-4FF23B249795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumblesBikesLibrary", "BumblesBikesLibrary\BumblesBikesLibrary.csproj", "{4BCD48F1-6702-48FC-81C8-1F901BE3806B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumblesBikesLibrary", "chapter-3\BumblesBikesLibrary\BumblesBikesLibrary.csproj", "{4BCD48F1-6702-48FC-81C8-1F901BE3806B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleAbstractFactoryExample", "BicycleAbstractFactoryExample\BicycleAbstractFactoryExample.csproj", "{4C82C585-2F6A-4110-BE4C-F94E21E05E82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleAbstractFactoryExample", "chapter-3\BicycleAbstractFactoryExample\BicycleAbstractFactoryExample.csproj", "{4C82C585-2F6A-4110-BE4C-F94E21E05E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleBuilderExample", "BicycleBuilderExample\BicycleBuilderExample.csproj", "{D993D56C-1931-4DEC-B01F-36CB40C3904E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleBuilderExample", "chapter-3\BicycleBuilderExample\BicycleBuilderExample.csproj", "{D993D56C-1931-4DEC-B01F-36CB40C3904E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodExample", "FactoryMethodExample\FactoryMethodExample.csproj", "{05F208CC-A743-4A14-ABF7-AEB34F2F397F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodExample", "chapter-3\FactoryMethodExample\FactoryMethodExample.csproj", "{05F208CC-A743-4A14-ABF7-AEB34F2F397F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{47571255-FEA0-41C0-B83E-04D9D02F4EB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "chapter-3\HelloWorld\HelloWorld.csproj", "{47571255-FEA0-41C0-B83E-04D9D02F4EB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-4", "chapter-4", "{95BBEF11-00B2-494C-BD8D-8CC10FA11605}"
 EndProject
@@ -28,13 +28,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-7", "chapter-7", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-8", "chapter-8", "{9BB7CF5A-F3EC-41EA-9A3F-352D5E701EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoPattern", "chapter-3\NoPattern\NoPattern.csproj", "{343293AE-9A48-4DEA-9BEA-13087E465F3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-3\NoPattern", "chapter-3\NoPattern\NoPattern.csproj", "{343293AE-9A48-4DEA-9BEA-13087E465F3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryExample", "chapter-3\SimpleFactoryExample\SimpleFactoryExample.csproj", "{2CB09787-B4E9-49BE-9FA7-98310681A69C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-3\SimpleFactoryExample", "chapter-3\SimpleFactoryExample\SimpleFactoryExample.csproj", "{2CB09787-B4E9-49BE-9FA7-98310681A69C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPoolExample", "chapter-3\ObjectPoolExample\ObjectPoolExample.csproj", "{38E151EA-63BF-4E24-AFA3-149D032706A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-3\ObjectPoolExample", "chapter-3\ObjectPoolExample\ObjectPoolExample.csproj", "{38E151EA-63BF-4E24-AFA3-149D032706A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonExample", "chapter-3\SingletonExample\SingletonExample.csproj", "{033D42F0-44A9-4D82-BD60-F4A53E636650}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-3\SingletonExample", "chapter-3\SingletonExample\SingletonExample.csproj", "{033D42F0-44A9-4D82-BD60-F4A53E636650}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
