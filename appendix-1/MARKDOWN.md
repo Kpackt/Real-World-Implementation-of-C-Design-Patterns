@@ -22,7 +22,7 @@ patterns, but not necessarily inline with the usual instruction of OOP or C# in 
 chapter sought to level-set and make sure everybody is on the same page with respect to understanding the basic
 qualities of OOP and how the operate in the C# language in particular.  I also wanted the book to be at least
 somewhat accessible to my students at Southern Methodist University.  However, I don't each C# but rather
-JavaScript as part of a full stack curriculum.  They don't know C#, but they come out knowning a lot about OOP 
+JavaScript as part of a full stack curriculum.  They don't know C#, but they come out knowing a lot about OOP 
 as implemented in JavaScript, which being a dynamic language with prototype inheritance and a weak type system, is
 very different than C#'s static class-based framework.
 

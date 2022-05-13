@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\BumblesBikesLibrary\BumblesBikesLibrary.csproj" />
+        <ProjectReference Include="..\ObjectPoolExample\ObjectPoolExample.csproj"/>
     </ItemGroup>
 
 </Project>
