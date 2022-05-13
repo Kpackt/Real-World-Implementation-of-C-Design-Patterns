@@ -4,6 +4,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-1", "chapter-1", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLogReporter", "WebLogReporter\WebLogReporter.csproj", "{5D15456F-D9CB-4EA8-8812-7855588FDF6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-2", "chapter-2", "{EBCB5BD0-1F85-4372-9E67-F64237BDA44F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-3", "chapter-3", "{19484763-2950-47AE-BAFC-4FF23B249795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumblesBikesLibrary", "BumblesBikesLibrary\BumblesBikesLibrary.csproj", "{4BCD48F1-6702-48FC-81C8-1F901BE3806B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +17,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B} = {7B1664DF-1E2D-4131-BD4E-B3FE5C909BAE}
+		{4BCD48F1-6702-48FC-81C8-1F901BE3806B} = {19484763-2950-47AE-BAFC-4FF23B249795}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCD48F1-6702-48FC-81C8-1F901BE3806B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCD48F1-6702-48FC-81C8-1F901BE3806B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCD48F1-6702-48FC-81C8-1F901BE3806B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCD48F1-6702-48FC-81C8-1F901BE3806B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
