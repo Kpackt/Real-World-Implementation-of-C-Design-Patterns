@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "WebLogReporter": {
-      "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\Bruce\\source\\repos\\WebLogReporter\\WebLogReporter\\SampleInputData\\nginx-sample.log c:\\temp\\report.html"
-    }
-  }
-}
