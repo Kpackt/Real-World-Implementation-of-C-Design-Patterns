@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-1", "chapter-1", "{7B1664DF-1E2D-4131-BD4E-B3FE5C909BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLogReporter", "WebLogReporter\WebLogReporter.csproj", "{5D15456F-D9CB-4EA8-8812-7855588FDF6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D15456F-D9CB-4EA8-8812-7855588FDF6B} = {7B1664DF-1E2D-4131-BD4E-B3FE5C909BAE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
