@@ -6,16 +6,13 @@ This was hard to write.  I had to intentionally create code that breaks every ru
 
 As an IT administrator, I would like to be able to easily review weblog traffic by running a command which takes in the location on my computer of a log file from a server running Nginx. I would also like to store the data in a relational database table for future analysis.
 
-GIVEN: I have a log file from Nginx on my computer at c:\temp\nginx-sample.log AND
+GIVEN: I have a log file from Nginx on my computer at [c:\temp\nginx-sample.log](SampleInputData/ngonx-sample.log) AND
 
 GIVEN: I have opened a PowerShell terminal window in Windows 10 or later AND
 
-GIVEN: The WebLogReporter program is listed within my computer's PATH environment variable
+GIVEN: The WebLogReporter program is listed within my computer's PATH environment variable <br>THEN: I can run the command WebLogReporter, pass the location of the weblog and the path for the output HTML file
 
-THEN: I can run the command WebLogReporter, pass the location of the weblog and the path for the output HTML file
-
-GIVEN: The program runs without errors
-THEN: I am able to view the output HTML file in my favorite browser.
+GIVEN: The program runs without errors <br> THEN: I am able to view the output HTML file in my favorite browser.
 
 ## Acceptance Criteria:
 * It's done when I can run the WebLogReporter program with no arguments and receive instructions.
