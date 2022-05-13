@@ -8,7 +8,7 @@ the same way in your file explorer as it does in the solution explorer within yo
 links from chapters to the chapter's code in github won't work well either, because GitHub doesn't understand how
 to display virtual folders.
 
-So to make this work, I left the firtual folder structure intact and created physical folders with links to the
+So to make this work, I left the virtual folder structure intact and created physical folders with links to the
 chapter code.  Its the best of both worlds.  If you open the book's solution file you'll see the chatper code
 delineated by chapter, which is again, a virtual structure.  When you browse in GitHub from the links in the text,
 you'll find a set of files like this one that map the physical structure to the virtual structure used by the IDE.
