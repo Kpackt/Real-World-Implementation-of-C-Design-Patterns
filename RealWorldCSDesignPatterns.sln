@@ -18,6 +18,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodExample", "Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{47571255-FEA0-41C0-B83E-04D9D02F4EB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-4", "chapter-4", "{95BBEF11-00B2-494C-BD8D-8CC10FA11605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-5", "chapter-5", "{0B335B18-49F7-4C95-90A0-A1E7CED8A474}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-6", "chapter-6", "{DB73766D-CAC6-47B2-AC2A-D6A58C6D7D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-7", "chapter-7", "{95CA3681-2685-408A-94C6-3D2BD0061EE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-8", "chapter-8", "{9BB7CF5A-F3EC-41EA-9A3F-352D5E701EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
