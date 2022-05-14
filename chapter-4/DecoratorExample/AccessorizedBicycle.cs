@@ -1,10 +1,18 @@
-﻿namespace DecoratorExample;
+﻿using BumbleBikesLibrary;
 
-using BumbleBikesLibrary;
+namespace DecoratorExample;
 
-public abstract class AccessorizedBicycleDecorator : IBicycle
+public class AccessorizedBicycle : IBicycle
 {
-    protected IBicycle UndecoratedBicycle;
+    private IBicycle UndecoratedBicycle { get; set; }
+    private List<IAccessory> Accessories { get; set; }
+    
+    public AccessorizedBicycle(IBicycle bicycle, List<IAccessory> accessories)
+    {
+        UndecoratedBicycle = bicycle;
+        Accessories = accessories;
+    }
+    
     public string ModelName
     {
         get => UndecoratedBicycle.ModelName;
@@ -31,14 +39,9 @@ public abstract class AccessorizedBicycleDecorator : IBicycle
         set => UndecoratedBicycle.BuildStatus = value;
     }
 
-    public AccessorizedBicycleDecorator(IBicycle undecoratedBicycle, IAccessory accessory)
-    {
-        UndecoratedBicycle = undecoratedBicycle;
-    }
+    
     public void Build()
     {
         UndecoratedBicycle.Build();
     }
-
-    
 }
