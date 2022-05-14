@@ -56,6 +56,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExample", "chapter-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelchairLibrary", "chapter-7\WheelchairLibrary\WheelchairLibrary.csproj", "{8413E945-E0EC-4532-B093-D97E651437C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeExample", "chapter-4\FacadeExample\FacadeExample.csproj", "{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,7 @@ Global
 		{0704F2BD-D99F-49DC-89B7-5BB2A7C798A3} = {0B335B18-49F7-4C95-90A0-A1E7CED8A474}
 		{0D39BF70-CDF7-43A3-AC12-3A6F975EA4E3} = {0B335B18-49F7-4C95-90A0-A1E7CED8A474}
 		{8413E945-E0EC-4532-B093-D97E651437C9} = {95CA3681-2685-408A-94C6-3D2BD0061EE8}
+		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A} = {95BBEF11-00B2-494C-BD8D-8CC10FA11605}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -164,5 +167,9 @@ Global
 		{8413E945-E0EC-4532-B093-D97E651437C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8413E945-E0EC-4532-B093-D97E651437C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8413E945-E0EC-4532-B093-D97E651437C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
