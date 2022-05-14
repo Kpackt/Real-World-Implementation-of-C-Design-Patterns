@@ -7,4 +7,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\chapter-3\BumblesBikesLibrary\BumblesBikesLibrary.csproj" />
+    </ItemGroup>
+
 </Project>
