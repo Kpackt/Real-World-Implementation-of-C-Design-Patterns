@@ -2,18 +2,37 @@
 
 public abstract class BicycleComponent
 {
-    public float Weight { get; set; }
-    public float Cost { get; set; }
+    private float Weight { get; set; }
+    private float Cost { get; set; }
 
-    private List<BicycleComponent> _subComponents;
+    public List<BicycleComponent> SubComponents;
 
     protected BicycleComponent(float weight, float cost)
     {
-        _subComponents = new List<BicycleComponent>();
+        SubComponents = new List<BicycleComponent>();
+        Weight = weight;
+        Cost = cost;
     }
 
-    protected void AddSubcomponent(BicycleComponent component)
+    public void DisplayWeight()
     {
-        _subComponents.Add(component);
+        if (SubComponents.Count <= 0) return;
+        foreach (var component in SubComponents)
+        {
+            Console.WriteLine(component.GetType().Name + " weighs " + component.Weight);
+            component.DisplayWeight();
+        }
+    }
+
+    public void DisplayCost()
+    {
+        if (SubComponents.Count <= 0) return;
+        foreach (var component in SubComponents)
+        {
+            Console.WriteLine(component.GetType().Name + " costs $" + component.Cost + " USD");
+            component.DisplayCost();
+        }
     }
 }
+
+ 
