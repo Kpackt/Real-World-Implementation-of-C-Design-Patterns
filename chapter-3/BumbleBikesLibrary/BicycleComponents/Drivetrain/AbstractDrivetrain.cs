@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using BumblesBikesLibrary.BicycleComponents;
 
 namespace BumbleBikesLibrary.BicycleComponents.Drivetrain;
 
@@ -9,8 +10,11 @@ public enum ShifterTypes
     Twist
 }
 
-public class AbstractDrivetrain : IDrivetrain
+public class AbstractDrivetrain : IDrivetrain, IBicycleComponent
 {
+    public string Name { get; set; }
+    public float Weight { get; set; }
+    public float Cost { get; set; }
     public float CrankLength { get; set; }
     public int FrontCassetteCogs { get; set; }
     public int RearCassetteCogs { get; set; }
@@ -18,6 +22,10 @@ public class AbstractDrivetrain : IDrivetrain
     public ShifterTypes Shifter { get; set; }
     public bool IsEnclosed { get; set; }
 
+    protected AbstractDrivetrain()
+    {
+        Name = "Unnamed Component";
+    }
     public override string ToString()
     {
         return
