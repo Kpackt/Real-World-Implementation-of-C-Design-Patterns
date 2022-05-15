@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-2", "chapter-2", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-3", "chapter-3", "{19484763-2950-47AE-BAFC-4FF23B249795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumblesBikesLibrary", "chapter-3\BumblesBikesLibrary\BumblesBikesLibrary.csproj", "{4BCD48F1-6702-48FC-81C8-1F901BE3806B}"
+
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleAbstractFactoryExample", "chapter-3\BicycleAbstractFactoryExample\BicycleAbstractFactoryExample.csproj", "{4C82C585-2F6A-4110-BE4C-F94E21E05E82}"
 EndProject
@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelchairLibrary", "chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeExample", "chapter-4\FacadeExample\FacadeExample.csproj", "{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumbleBikesLibrary", "chapter-3\BumbleBikesLibrary\BumbleBikesLibrary.csproj", "{D909FE66-E9D5-417B-BEBC-40F91393AF79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,7 @@ Global
 		{0D39BF70-CDF7-43A3-AC12-3A6F975EA4E3} = {0B335B18-49F7-4C95-90A0-A1E7CED8A474}
 		{8413E945-E0EC-4532-B093-D97E651437C9} = {95CA3681-2685-408A-94C6-3D2BD0061EE8}
 		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A} = {95BBEF11-00B2-494C-BD8D-8CC10FA11605}
+		{D909FE66-E9D5-417B-BEBC-40F91393AF79} = {19484763-2950-47AE-BAFC-4FF23B249795}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5D15456F-D9CB-4EA8-8812-7855588FDF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -171,5 +174,9 @@ Global
 		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605A7914-BE9E-4FAC-ACC4-3CAF3976C20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D909FE66-E9D5-417B-BEBC-40F91393AF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D909FE66-E9D5-417B-BEBC-40F91393AF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D909FE66-E9D5-417B-BEBC-40F91393AF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D909FE66-E9D5-417B-BEBC-40F91393AF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
