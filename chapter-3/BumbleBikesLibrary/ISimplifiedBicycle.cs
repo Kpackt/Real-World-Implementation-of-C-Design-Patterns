@@ -1,8 +1,6 @@
 ﻿namespace BumbleBikesLibrary;
 
-// same as IBicycle but with paint color enum removed
-// see the chapter on the Bridge pattern
-public interface IPaintableBicycle
+public interface ISimplifiedBicycle
 {
     public string ModelName { get; set; }
     public int Year { get; }
