@@ -2,11 +2,14 @@
 using System.Numerics;
 
 const int numberOfAssemblyStations = 20;
+const float consistentY = 52.0f;
+const float consistentZ = 128.0f;
+const float consistentW = 90.0f; 
 var assemblyStations = new Quaternion[numberOfAssemblyStations];
 for (var i = 0; i < numberOfAssemblyStations; i++)
 {
     var xPosition = i * 25.0f;
-    assemblyStations[i] = new Quaternion(xPosition, 52.0f, 128.0f, 90.0f);
+    assemblyStations[i] = new Quaternion(xPosition, consistentY, consistentZ, consistentW);
 }
 
 Console.WriteLine("RobotArm 0: Robotic arm control system activated!");
