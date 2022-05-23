@@ -2,6 +2,7 @@
 
 public interface IPaintJob
 {
+    public string Name { get; set; }
     public int Cyan { get; set; }
     public int Magenta { get; set; }
     public int Yellow { get; set; }
