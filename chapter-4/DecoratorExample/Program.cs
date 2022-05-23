@@ -2,14 +2,14 @@
 using DecoratorExample;
 
 var regularRoadBike = new RoadBike();  //no decorators.
-var bikeManualPrinter = new ManualPrinter();
-var manufacturingInventoryNotifier = new MaterialsInventoryNotifier();
 
+var bikeManualPrinter = new ManualPrinter();
 var documentedBike = new DocumentedBicycle(regularRoadBike, bikeManualPrinter);
 documentedBike.Build();
 
 Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
+var manufacturingInventoryNotifier = new MaterialsInventoryNotifier();
 var notifierBike = new NotifyingBicycle(regularRoadBike, manufacturingInventoryNotifier);
 notifierBike.Build();
 
