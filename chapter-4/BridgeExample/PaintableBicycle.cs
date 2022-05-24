@@ -3,7 +3,7 @@ using BumbleBikesLibrary.PaintableBicycle;
 
 namespace BridgeExample;
 
-public abstract class PaintableBicycle : ISimplifiedBicycle, IPaintableBicycle
+public abstract class PaintableBicycle : IPaintableBicycle
 {
     public string ModelName { get; set; }
     public int Year { get; }
