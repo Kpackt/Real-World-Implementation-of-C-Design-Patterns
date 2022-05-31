@@ -21,14 +21,10 @@ public class PaintOrderIterator : Iterator
     public override bool MoveNext()
     {
         var updatedPosition = _position + 1;
-        
-        if (updatedPosition >= 0 && updatedPosition < _orders.Orders.Count)
-        {
-            _position = updatedPosition;
-            return true;    
-        }
 
-        return false;
+        if (updatedPosition < 0 || updatedPosition >= _orders.Orders.Count) return false;
+        _position = updatedPosition;
+        return true;
 
     }
 
