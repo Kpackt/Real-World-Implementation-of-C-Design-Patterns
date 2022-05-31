@@ -8,5 +8,5 @@ public abstract class Iterator : IEnumerator
     public abstract int Key();
     public abstract bool MoveNext();
     public abstract void Reset();
-    public abstract object Current();
+    protected abstract object Current();
 }

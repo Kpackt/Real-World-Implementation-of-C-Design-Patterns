@@ -16,7 +16,7 @@ public class OrdersCollection : IteratorAggregate
         Orders.Add(order);
     }
 
-    public void AddOrders(List<BicycleOrder> orders)
+    public void AddOrders(IEnumerable<BicycleOrder> orders)
     {
         Orders.AddRange(orders);
     }

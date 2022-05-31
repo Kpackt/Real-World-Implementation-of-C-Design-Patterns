@@ -4,7 +4,7 @@ namespace IteratorExample;
 
 public class PaintOrderIterator : Iterator
 {
-    private OrdersCollection _orders;
+    private readonly OrdersCollection _orders;
     private int _position;
     
     public PaintOrderIterator(OrdersCollection orders)
@@ -33,7 +33,7 @@ public class PaintOrderIterator : Iterator
         _position = 0;
     }
 
-    public override object Current()
+    protected override object Current()
     {
         return _orders.Orders[_position];
     }
