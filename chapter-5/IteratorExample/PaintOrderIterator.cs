@@ -1,4 +1,6 @@
-﻿namespace IteratorExample;
+﻿using BumbleBikesLibrary.PaintableBicycle;
+
+namespace IteratorExample;
 
 public class PaintOrderIterator : Iterator
 {
@@ -41,8 +43,10 @@ public class PaintOrderIterator : Iterator
         var standardPaintJobOrders = new List<BicycleOrder>();
         foreach (var order in orders.GetOrders())
         {
-            var paintJobType = order.Bicycle.PaintJob.GetType().ToString();
-            if (paintJobType == "CustomGradientPaintJob")
+            var paintJob = order.Bicycle.PaintJob;
+            bool isCustom = paintJob.GetType().IsSubclassOf(typeof(CustomGradientPaintJob));
+
+            if(isCustom)
             {
                 customPaintJobOrders.Add(order);
             }
