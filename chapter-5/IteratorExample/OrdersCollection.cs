@@ -4,25 +4,21 @@ namespace IteratorExample;
 
 public class OrdersCollection : IteratorAggregate
 {
-    private List<BicycleOrder> _orders;
+    public List<BicycleOrder> Orders { get; set; }
 
     public OrdersCollection()
     {
-        _orders = new List<BicycleOrder>();
-    }
-    public List<BicycleOrder> GetOrders()
-    {
-        return _orders;
+        Orders = new List<BicycleOrder>();
     }
 
     public void AddOrder(BicycleOrder order)
     {
-        _orders.Add(order);
+        Orders.Add(order);
     }
 
     public void AddOrders(List<BicycleOrder> orders)
     {
-        _orders.AddRange(orders);
+        Orders.AddRange(orders);
     }
     
     public override IEnumerator GetEnumerator()

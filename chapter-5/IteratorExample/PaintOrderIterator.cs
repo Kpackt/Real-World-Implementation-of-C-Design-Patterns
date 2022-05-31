@@ -5,11 +5,12 @@ namespace IteratorExample;
 public class PaintOrderIterator : Iterator
 {
     private OrdersCollection _orders;
-    private int _position = -1;
+    private int _position;
     
     public PaintOrderIterator(OrdersCollection orders)
     {
         _orders = SeparateCustomPaintJobOrders(orders);
+        _position = -1;
     }
     
     public override int Key()
@@ -19,10 +20,16 @@ public class PaintOrderIterator : Iterator
 
     public override bool MoveNext()
     {
-        var updatedPosition = _position++;
-        if (updatedPosition < 0 || updatedPosition >= _orders.GetOrders().Count) return false;
-        _position = updatedPosition;
-        return true;
+        var updatedPosition = _position + 1;
+        
+        if (updatedPosition >= 0 && updatedPosition < _orders.Orders.Count)
+        {
+            _position = updatedPosition;
+            return true;    
+        }
+
+        return false;
+
     }
 
     public override void Reset()
@@ -32,16 +39,16 @@ public class PaintOrderIterator : Iterator
 
     public override object Current()
     {
-        return _orders.GetOrders()[_position];
+        return _orders.Orders[_position];
     }
     
     private OrdersCollection SeparateCustomPaintJobOrders(OrdersCollection orders)
     {
         // we need the standard paint jobs first and customs at the end
-        var result = new OrdersCollection();
+        
         var customPaintJobOrders = new List<BicycleOrder>();
         var standardPaintJobOrders = new List<BicycleOrder>();
-        foreach (var order in orders.GetOrders())
+        foreach (var order in orders.Orders)
         {
             var paintJob = order.Bicycle.PaintJob;
             bool isCustom = paintJob.GetType().IsSubclassOf(typeof(CustomGradientPaintJob));
@@ -55,8 +62,9 @@ public class PaintOrderIterator : Iterator
                 standardPaintJobOrders.Add(order);
             }
         }
-        result.AddOrders(standardPaintJobOrders); 
-        result.AddOrders(customPaintJobOrders);
-        return result;
+        orders.Orders.Clear();
+        orders.Orders.AddRange(standardPaintJobOrders);
+        orders.Orders.AddRange(customPaintJobOrders);
+        return orders;
     }
 }
