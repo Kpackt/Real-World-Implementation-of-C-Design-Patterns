@@ -16,11 +16,6 @@ public class OrdersCollection : IteratorAggregate
         Orders.Add(order);
     }
 
-    public void AddOrders(IEnumerable<BicycleOrder> orders)
-    {
-        Orders.AddRange(orders);
-    }
-    
     public override IEnumerator GetEnumerator()
     {
         return new PaintOrderIterator(this);
