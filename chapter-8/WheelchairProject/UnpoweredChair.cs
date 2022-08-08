@@ -1,12 +1,13 @@
 ﻿namespace WheelchairProject;
 
+using WheelchairComponents;
 public abstract class UnpoweredChair : Wheelchair
 {
-    protected WheelchairComponent RightWheel { get; set; }
-    protected WheelchairComponent LeftWheel { get; set; }
-    protected WheelchairComponent Casters { get; set; }
+    protected MechanicalWheel RightWheel { get; set; }
+    protected MechanicalWheel LeftWheel { get; set; }
+    protected CasterAssembly Casters { get; set; }
 
-    protected UnpoweredChair(WheelchairComponent rightWheel, WheelchairComponent leftWheel, WheelchairComponent casters)
+    protected UnpoweredChair(MechanicalWheel rightWheel, MechanicalWheel leftWheel, CasterAssembly casters)
     {
         RightWheel = rightWheel;
         LeftWheel = leftWheel;

@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject;
+﻿namespace WheelchairProject.WheelchairComponents;
 
 public abstract class WheelchairComponent
 {
