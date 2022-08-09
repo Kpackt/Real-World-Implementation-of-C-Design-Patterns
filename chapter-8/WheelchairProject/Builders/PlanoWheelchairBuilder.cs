@@ -1,4 +1,5 @@
 ﻿using System.Dynamic;
+using WheelchairProject.WheelchairComponents;
 
 namespace WheelchairProject.Builders;
 
@@ -20,24 +21,36 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
 
     public void BuildFrame()
     {
-        
+        _wheelchair.Frame = new PlanoWheelchairFrame();
     }
+    
 
     public void BuildWheels()
     {
-        throw new NotImplementedException();
+        var axle = new StandardAxle();
+        var leftWheel = new StandardWheel();
+        var rightWheel = new StandardWheel();
+
+        axle.LeftWheel = leftWheel;
+        axle.RightWheel = rightWheel;
+
+        _wheelchair.Axle = axle;
     }
 
     public void BuildSeat()
     {
-        // the seat is a leaf node so just make one ad add it as a component
+        _wheelchair.Seat = new PlanoSeat();
         
-        throw new NotImplementedException();
     }
 
     public void BuildComposite()
     {
-        throw new NotImplementedException();
+       _wheelchair.Subcomponents.Clear();
+       _wheelchair.Subcomponents.Add(_wheelchair.Seat);
+       
+       _wheelchair.Frame.Subcomponents.Clear();
+       _wheelchair.Frame.Subcomponents.Add(_wheelchair.Axle);
+       _wheelchair.Frame.Subcomponents.Add(_wheelchair.Casters);
     }
 
     public void BuildFramePainter()
