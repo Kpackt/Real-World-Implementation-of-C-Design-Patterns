@@ -13,14 +13,24 @@ public abstract class WheelchairComponent
         Price = 0.0f;
     }
 
-    protected float DisplayWeight()
+    protected void DisplayWeight()
     {
-        throw new NotImplementedException();
+        if (!Subcomponents.Any()) return;
+        foreach (var component in Subcomponents)
+        {
+            Console.WriteLine(component.GetType().Name + " weighs " + component.Weight);
+            component.DisplayWeight();
+        }
     }
 
-    protected float DisplayCost()
+    protected void DisplayCost()
     {
-        throw new NotImplementedException();
+        if (!Subcomponents.Any()) return;
+        foreach (var component in Subcomponents)
+        {
+            Console.WriteLine(component.GetType().Name + " costs $" + component.Price + " USD");
+            component.DisplayCost();
+        }
     }
     
 }
