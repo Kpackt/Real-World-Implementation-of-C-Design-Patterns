@@ -32,7 +32,6 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
 
     public void BuildAxleAssembly()
     {
-        
         var leftWheel = new StandardWheel();
         var rightWheel = new StandardWheel();
         var axle = new StandardAxle(leftWheel, rightWheel);
@@ -53,6 +52,7 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
         
     }
 
+    //shouldn't need this anymore
     public void BuildComposite()
     {
        _wheelchair.Subcomponents.Clear();
@@ -69,6 +69,6 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
 
     public Wheelchair GetProduct()
     {
-        return new PlanoWheelchair();
+        return _wheelchair;
     }
 }
