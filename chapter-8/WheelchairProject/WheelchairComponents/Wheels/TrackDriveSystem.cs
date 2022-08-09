@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿namespace WheelchairProject.WheelchairComponents.Wheels;
 
 public abstract class TrackDriveSystem : WheelchairComponent
 {

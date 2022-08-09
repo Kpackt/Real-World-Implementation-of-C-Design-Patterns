@@ -1,5 +1,10 @@
 ﻿using System.Dynamic;
 using WheelchairProject.WheelchairComponents;
+using WheelchairProject.WheelchairComponents.Axles;
+using WheelchairProject.WheelchairComponents.Casters;
+using WheelchairProject.WheelchairComponents.Frames;
+using WheelchairProject.WheelchairComponents.Seats;
+using WheelchairProject.WheelchairComponents.Wheels;
 
 namespace WheelchairProject.Builders;
 
@@ -25,7 +30,7 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
     }
     
 
-    public void BuildWheels()
+    public void BuildAxleAssembly()
     {
         var axle = new StandardAxle();
         var leftWheel = new StandardWheel();
@@ -34,7 +39,13 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
         axle.LeftWheel = leftWheel;
         axle.RightWheel = rightWheel;
 
-        _wheelchair.Axle = axle;
+        _wheelchair.Frame.Axle = axle;
+    }
+
+    public void BuildCasterAssembly()
+    {
+        var leftCaster = new PlanoCasterAssembly();
+        leftCaster
     }
 
     public void BuildSeat()

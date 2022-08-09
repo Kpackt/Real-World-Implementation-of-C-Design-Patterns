@@ -1,4 +1,7 @@
-﻿namespace WheelchairProject;
+﻿using WheelchairProject.WheelchairComponents.Frames;
+using WheelchairProject.WheelchairComponents.Seats;
+
+namespace WheelchairProject;
 using WheelchairComponents;
 public abstract class Wheelchair : WheelchairComponent, IManufacturable
 {

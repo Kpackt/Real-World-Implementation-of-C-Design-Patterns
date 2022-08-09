@@ -13,7 +13,7 @@ public class WheelchairBuilderDirector
     {
         _builder.BuildSeat();
         _builder.BuildFrame();
-        _builder.BuildWheels();
+        _builder.BuildAxleAssembly();
         _builder.BuildFramePainter();
         _builder.BuildComposite();
 

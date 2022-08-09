@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿namespace WheelchairProject.WheelchairComponents.Seats;
 
 public class PlanoSeat : WheelchairSeat
 {

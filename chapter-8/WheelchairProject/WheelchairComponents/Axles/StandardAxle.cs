@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿namespace WheelchairProject.WheelchairComponents.Axles;
 
 public class StandardAxle : Axle
 {

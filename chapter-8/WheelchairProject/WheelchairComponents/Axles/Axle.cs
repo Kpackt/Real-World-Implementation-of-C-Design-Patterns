@@ -1,4 +1,6 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿using WheelchairProject.WheelchairComponents.Wheels;
+
+namespace WheelchairProject.WheelchairComponents.Axles;
 
 public abstract class Axle : WheelchairComponent 
 {

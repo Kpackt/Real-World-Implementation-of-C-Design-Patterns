@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿namespace WheelchairProject.WheelchairComponents.Wheels;
 
 public class StandardWheel : MechanicalWheel
 {

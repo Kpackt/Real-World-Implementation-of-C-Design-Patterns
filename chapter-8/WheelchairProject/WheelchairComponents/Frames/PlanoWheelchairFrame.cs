@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿namespace WheelchairProject.WheelchairComponents.Frames;
 
 public class PlanoWheelchairFrame : WheelchairFrame
 {
