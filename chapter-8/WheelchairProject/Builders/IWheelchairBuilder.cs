@@ -8,4 +8,6 @@ public interface IWheelchairBuilder
     public void BuildSeat();
     public void BuildComposite();
     public void BuildFramePainter();
+
+    public Wheelchair GetProduct();
 }

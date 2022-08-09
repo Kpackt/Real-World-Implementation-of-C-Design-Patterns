@@ -3,9 +3,9 @@
 using WheelchairComponents;
 public abstract class UnpoweredChair : Wheelchair
 {
-    protected MechanicalWheel RightWheel { get; set; }
-    protected MechanicalWheel LeftWheel { get; set; }
-    protected CasterAssembly Casters { get; set; }
+    public MechanicalWheel RightWheel { get; set; }
+    public MechanicalWheel LeftWheel { get; set; }
+    public CasterAssembly Casters { get; set; }
 
     // protected UnpoweredChair(MechanicalWheel rightWheel, MechanicalWheel leftWheel, CasterAssembly casters)
     // {

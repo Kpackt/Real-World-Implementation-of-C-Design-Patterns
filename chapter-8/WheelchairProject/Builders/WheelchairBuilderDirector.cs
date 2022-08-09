@@ -11,6 +11,12 @@ public class WheelchairBuilderDirector
 
     public Wheelchair Build()
     {
-        throw new NotImplementedException();
+        _builder.BuildSeat();
+        _builder.BuildFrame();
+        _builder.BuildWheels();
+        _builder.BuildFramePainter();
+        _builder.BuildComposite();
+
+        return _builder.GetProduct();
     }
 }

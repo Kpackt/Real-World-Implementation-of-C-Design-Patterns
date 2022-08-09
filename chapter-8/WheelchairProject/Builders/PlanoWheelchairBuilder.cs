@@ -1,17 +1,26 @@
-﻿namespace WheelchairProject.Builders;
+﻿using System.Dynamic;
+
+namespace WheelchairProject.Builders;
 
 public class PlanoWheelchairBuilder : IWheelchairBuilder
 {
     private PlanoWheelchair _wheelchair;
+
+    public PlanoWheelchairBuilder()
+    {
+        Reset();
+        
+    }
     
     public void Reset()
     {
         _wheelchair = new PlanoWheelchair();
+        
     }
 
     public void BuildFrame()
     {
-        throw new NotImplementedException();
+        
     }
 
     public void BuildWheels()
@@ -36,12 +45,8 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
         throw new NotImplementedException();
     }
 
-    public PlanoWheelchair GetProduct()
+    public Wheelchair GetProduct()
     {
-        // the wheelchair is built as a composite of wheelchair components. 
-        // they must be assembled in a particular order.
-        
-        
-        throw new NotImplementedException();
+        return new PlanoWheelchair();
     }
 }
