@@ -32,13 +32,10 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
 
     public void BuildAxleAssembly()
     {
-        var axle = new StandardAxle();
+        
         var leftWheel = new StandardWheel();
         var rightWheel = new StandardWheel();
-
-        axle.LeftWheel = leftWheel;
-        axle.RightWheel = rightWheel;
-
+        var axle = new StandardAxle(leftWheel, rightWheel);
         _wheelchair.Frame.Axle = axle;
     }
 
@@ -62,6 +59,7 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
        _wheelchair.Subcomponents.Add(_wheelchair.Seat);
        
        _wheelchair.Frame.Subcomponents.Clear();
+       
     }
 
     public void BuildFramePainter()
