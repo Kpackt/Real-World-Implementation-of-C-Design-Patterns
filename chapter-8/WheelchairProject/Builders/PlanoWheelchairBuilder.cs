@@ -44,8 +44,10 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
 
     public void BuildCasterAssembly()
     {
-        var leftCaster = new PlanoCasterAssembly();
-        leftCaster
+        var planoCasterWheel = new CasterWheel();
+        var casterAssembly = new PlanoCasterAssembly(planoCasterWheel);
+        _wheelchair.Frame.LeftCaster = casterAssembly;
+        _wheelchair.Frame.RightCaster = casterAssembly;
     }
 
     public void BuildSeat()
@@ -60,8 +62,6 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
        _wheelchair.Subcomponents.Add(_wheelchair.Seat);
        
        _wheelchair.Frame.Subcomponents.Clear();
-       _wheelchair.Frame.Subcomponents.Add(_wheelchair.Axle);
-       _wheelchair.Frame.Subcomponents.Add(_wheelchair.Casters);
     }
 
     public void BuildFramePainter()

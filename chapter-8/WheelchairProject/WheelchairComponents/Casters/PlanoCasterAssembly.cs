@@ -1,11 +1,16 @@
-﻿namespace WheelchairProject.WheelchairComponents.Casters;
+﻿using WheelchairProject.WheelchairComponents.Wheels;
+
+namespace WheelchairProject.WheelchairComponents.Casters;
 
 public class PlanoCasterAssembly : CasterAssembly
 {
-    public PlanoCasterAssembly()
+    public PlanoCasterAssembly(MechanicalWheel wheel)
     {
-        Weight = 6.32f;
-        Price = 37.32f;
+        LoadCapacity = 300.0f;
+        MountingType = "STEM";
+        Weight = 0.443f;
+        Price = 4.32f;
+        Wheel = wheel;
     }
         
 }
