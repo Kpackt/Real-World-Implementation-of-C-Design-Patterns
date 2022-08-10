@@ -3,10 +3,21 @@
 public class WheelchairBuilderDirector
 {
     private IWheelchairBuilder _builder;
-
-    public WheelchairBuilderDirector(IWheelchairBuilder builder)
+    private static WheelchairBuilderDirector? _instance;
+    private WheelchairBuilderDirector(IWheelchairBuilder builder)
     {
         _builder = builder;
+    }
+
+    public static WheelchairBuilderDirector? GetInstance(IWheelchairBuilder builder)
+    {
+        if (_instance == null)
+        {
+            _instance = new WheelchairBuilderDirector(builder);
+        }
+
+        return _instance;
+
     }
 
     public Wheelchair Build()
