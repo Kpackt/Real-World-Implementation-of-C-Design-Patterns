@@ -1,4 +1,4 @@
-﻿namespace WheelchairProject.WheelchairComponents;
+﻿namespace WheelchairProject.WheelchairComponents.Electrical;
 
 public abstract class Battery : WheelchairComponent
 {
