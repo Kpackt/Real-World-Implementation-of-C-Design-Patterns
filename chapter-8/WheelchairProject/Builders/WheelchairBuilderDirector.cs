@@ -26,7 +26,7 @@ public class WheelchairBuilderDirector
         _builder.BuildFrame();
         _builder.BuildAxleAssembly();
         _builder.BuildCasterAssembly();
-        // _builder.BuildFramePainter();
+        _builder.BuildFramePainter();
 
         return _builder.GetProduct();
     }

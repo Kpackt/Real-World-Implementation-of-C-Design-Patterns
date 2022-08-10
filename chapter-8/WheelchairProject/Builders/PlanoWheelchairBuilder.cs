@@ -1,4 +1,5 @@
 ﻿using System.Dynamic;
+using WheelchairProject.Painters;
 using WheelchairProject.WheelchairComponents;
 using WheelchairProject.WheelchairComponents.Axles;
 using WheelchairProject.WheelchairComponents.Casters;
@@ -52,19 +53,20 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
         
     }
 
-    //shouldn't need this anymore
-    public void BuildComposite()
-    {
-       _wheelchair.Subcomponents.Clear();
-       _wheelchair.Subcomponents.Add(_wheelchair.Seat);
-       
-       _wheelchair.Frame.Subcomponents.Clear();
-       
-    }
-
     public void BuildFramePainter()
     {
-        throw new NotImplementedException();
+        var painter = new PlanoWheelchairPainter
+        {
+            PaintColorName = "Green-Eyed Judy",
+            Cyan = 79,
+            Magenta = 22,
+            Yellow = 100,
+            Black = 8
+        };
+
+        _wheelchair.FramePainter = painter;
+        _wheelchair.FramePainter.MixPaint();
+        _wheelchair.FramePainter.PaintFrame();
     }
 
     public Wheelchair GetProduct()

@@ -1,4 +1,5 @@
-﻿using WheelchairProject.WheelchairComponents.Frames;
+﻿using WheelchairProject.Painters;
+using WheelchairProject.WheelchairComponents.Frames;
 using WheelchairProject.WheelchairComponents.Seats;
 
 namespace WheelchairProject;
@@ -30,7 +31,7 @@ public abstract class Wheelchair : WheelchairComponent, IManufacturable
             FixComposite();
         }
     }
-
+    public IFramePainter FramePainter { get; set; } // doesn't need to be in the composite
     private void FixComposite()
     {
         Subcomponents.Clear();
