@@ -5,7 +5,7 @@ public abstract class BicycleComponent
     private float Weight { get; set; }
     private float Cost { get; set; }
 
-    public List<BicycleComponent> SubComponents;
+    public IList<BicycleComponent> SubComponents;
 
     protected BicycleComponent(float weight, float cost)
     {
