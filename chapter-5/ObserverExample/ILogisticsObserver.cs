@@ -1,6 +1,6 @@
 ﻿namespace ObserverExample;
 
-public interface ILogisticSubscriber
+public interface ILogisticsObserver
 {
     public void SchedulePickup();
 }

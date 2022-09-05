@@ -1,6 +1,6 @@
 ﻿namespace ObserverExample;
 
-public class ExFedSubscriber : ILogisticSubscriber
+public class ExFedObserver : ILogisticsObserver
 {
     public void SchedulePickup()
     {

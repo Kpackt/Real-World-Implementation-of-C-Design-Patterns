@@ -3,10 +3,10 @@
 using ObserverExample;
 using BumbleBikesLibrary;
 
-var logisticsPublisher = new LogisticsPublisher();
+var logisticsSubject = new LogisticsSubject();
 
-var exFed = new ExFedSubscriber();
-logisticsPublisher.Subscribe(exFed);
+var exFed = new ExFedObserver();
+logisticsSubject.Attach(exFed);
 
 // Now let's make some bikes.  Each time we have 10, we'll send a notification.
 var pickupOrder = new List<Bicycle>();
@@ -22,7 +22,7 @@ for (var i = 0; i < 99; i++)
     
     if (pickupOrder.Count > 9)
     {
-        logisticsPublisher.NotifyPickupAvailable();
+        logisticsSubject.NotifyPickupAvailable();
         
         // now pretend pickup was instantaneous
         pickupOrder.Clear();
@@ -31,4 +31,4 @@ for (var i = 0; i < 99; i++)
 
 // done making bikes for today.
 
-logisticsPublisher.Unsubscribe(exFed);
+logisticsSubject.Detach(exFed);
