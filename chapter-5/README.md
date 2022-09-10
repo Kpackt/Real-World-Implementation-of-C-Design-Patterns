@@ -1,5 +1,5 @@
 ﻿# Real-World-Implementation-of-C-Design-Patterns
-## Chapter 5 Sample Code
+## Chapter 5 Wrangling Problem Code by Applying Behavioral Patterns
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects
 with dependencies between each other in Visual Studio or Rider is pretty easy.  However, the structure
 created by the IDE is a virtual structure and not a physical structure.  By this, I mean when you make a solution
@@ -15,7 +15,7 @@ you'll find a set of files like this one that map the physical structure to the 
 
 ## In this chapter
 This chapter deals with a class of patterns known as *Behavioral Patterns*.  This group of patterns helps define expressive ways to
-define the behavior of the objects within your project.
+define the behavior of the algorithms within your project.
 
 ## Projects in this chapter
 * CommandExample

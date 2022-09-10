@@ -1,5 +1,5 @@
 ﻿# Real-World-Implementation-of-C-Design-Patterns
-## Chapter 3 Sample Code
+## Chapter 3 Getting Creative with Creation Patterns
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects
 with dependencies between each other in Visual Studio or Rider is pretty easy.  However, the structure
 created by the IDE is a virtual structure and not a physical structure.  By this, I mean when you make a solution
