@@ -52,7 +52,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumbleBikesLibrary", "chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorExample", "chapter-5\IteratorExample\IteratorExample.csproj", "{BB9C1580-7A96-4864-B63F-DB249281B567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelchairProject", "chapter-8\WheelchairProject\WheelchairProject.csproj", "{32856744-B770-45BB-A389-A8B407BCB186}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelchairProject", "chapter-7\WheelchairProject\WheelchairProject.csproj", "{32856744-B770-45BB-A389-A8B407BCB186}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
