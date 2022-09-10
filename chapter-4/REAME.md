@@ -26,5 +26,32 @@ What a creation pattern is to a single class, a structural pattern is to a large
 ## BridgeExample
 This is an example of an implementation of the Bridge pattern.  The Bridge pattern is used when you want to de-couple to complicated parts of an object graph and manage them separately.  In the book we vary the bicycle classes along with some new paint classes.  Both are complicated.  They key to the bridge pattern is straightforward composition.
 
+### To run the project:
+1. Open the terminal window in Visual Studio Code (Ctrl + `) or run Powershell
+2. CD into the ```chapter-4\BridgeExample``` project folder.  The project folder contains the project file ```BridgeExample.csproj```.
+3. Type ```dotnet run```.
+
+## CompositeExample
+The Composite pattern is used when you need to process a hierarchical object graph.  In the book, we implement a cost and weight calculation for our bicycles.
+### To run the project:
+1. Open the terminal window in Visual Studio Code (Ctrl + `) or run Powershell
+2. CD into the ```chapter-4\CompositeExample``` project folder.  The project folder contains the project file ```CompositeExample.csproj```.
+3. Type ```dotnet run```.
+
+## DecoratorExample
+This is an example of the Decorator pattern.  Use this pattern to add new behaviors to objects without modifying the origina object's class code.  This helps you honor the open-closed principle (the O in SOLID) discussed in Chatper 2.  It also reminds me of the song *You Decorated My Life* by Kenny Rogers.  I'm not sure whether that is good or bad.
+### To run the project:
+1. Open the terminal window in Visual Studio Code (Ctrl + `) or run Powershell
+2. CD into the ```chapter-4\DecoratorExample``` project folder.  The project folder contains the project file ```DecoratorExample.csproj```.
+3. Type ```dotnet run```.
+
+## FacadeExample
+A Facade pattern is used when you want to hide the details of a complicated set of interfaces.  In the book we use the example of a set of complicated third-party robotics control systems.
+
+### To run the project:
+1. Open the terminal window in Visual Studio Code (Ctrl + `) or run Powershell
+2. CD into the ```chapter-4\FacadeExample``` project folder.  The project folder contains the project file ```FacadeExample.csproj```.
+3. Type ```dotnet run```.
+
 ## Check out the companion web site
 Visit the companion website for this book at [https://csharppatterns.dev](https://csharppatterns.dev)
