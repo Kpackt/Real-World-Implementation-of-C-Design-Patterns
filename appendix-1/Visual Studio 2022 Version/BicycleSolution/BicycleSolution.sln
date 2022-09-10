@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleConsoleApp", "BicycleConsoleApp\BicycleConsoleApp.csproj", "{8BC9C8D5-A5FF-42A2-A928-669EB08EDE4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC9C8D5-A5FF-42A2-A928-669EB08EDE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC9C8D5-A5FF-42A2-A928-669EB08EDE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC9C8D5-A5FF-42A2-A928-669EB08EDE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC9C8D5-A5FF-42A2-A928-669EB08EDE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5BDC9EE-156F-4F96-AD04-4BA6367321C5}
+	EndGlobalSection
+EndGlobal

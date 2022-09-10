@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleConsoleApp", "BicycleConsoleApp\BicycleConsoleApp.csproj", "{7FA7CBCB-4B10-4F34-B09F-0E94DFECE231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BicycleLibrary", "BicycleLibrary\BicycleLibrary.csproj", "{85098E88-B214-4D56-A723-BEC3C0C86B94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FA7CBCB-4B10-4F34-B09F-0E94DFECE231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA7CBCB-4B10-4F34-B09F-0E94DFECE231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA7CBCB-4B10-4F34-B09F-0E94DFECE231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA7CBCB-4B10-4F34-B09F-0E94DFECE231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85098E88-B214-4D56-A723-BEC3C0C86B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85098E88-B214-4D56-A723-BEC3C0C86B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85098E88-B214-4D56-A723-BEC3C0C86B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85098E88-B214-4D56-A723-BEC3C0C86B94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
