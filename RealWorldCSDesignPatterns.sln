@@ -22,8 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-4", "chapter-4", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-5", "chapter-5", "{0B335B18-49F7-4C95-90A0-A1E7CED8A474}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-6", "chapter-6", "{DB73766D-CAC6-47B2-AC2A-D6A58C6D7D44}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter-7", "chapter-7", "{9BB7CF5A-F3EC-41EA-9A3F-352D5E701EFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chapter-3\NoPattern", "chapter-3\NoPattern\NoPattern.csproj", "{343293AE-9A48-4DEA-9BEA-13087E465F3A}"
