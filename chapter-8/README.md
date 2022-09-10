@@ -14,4 +14,4 @@ delineated by chapter, which is again, a virtual structure.  When you browse in 
 you'll find a set of files like this one that map the physical structure to the virtual structure used by the IDE.
 
 ## In this chapter
-This is the swan song; the chapter where we wrap things up.  There isn't in code in this chapter besides maybe short snippets.
+This is the swan song; the chapter where we wrap things up.  There aren't any projects in this chapter.  I've found if I leave this sort of note out, people think the chapter code is missing.  It isn't missing, there just isn't any.
