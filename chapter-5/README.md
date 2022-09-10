@@ -18,3 +18,6 @@ This chapter deals with a class of patterns known as *Behavioral Patterns*.  Thi
 define the behavior of the objects within your project.
 
 ## Projects (In the order presented within the text)
+
+## Check out the companion web site
+Visit the companion website for this book at [https://csharppatterns.dev](https://csharppatterns.dev)

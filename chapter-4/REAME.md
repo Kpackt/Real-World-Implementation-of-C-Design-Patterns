@@ -17,4 +17,14 @@ you'll find a set of files like this one that map the physical structure to the 
 This chapter deals with a class of patterns known as *Structural Patterns*.  This group of patterns assists with building larger structures.
 What a creation pattern is to a single class, a structural pattern is to a larger project.
 
-## Projects (In the order presented within the text)
+## Projects in this chapter
+* Bridge Example
+* Composite Example
+* Decorator Example
+* Facade Example
+
+## BridgeExample
+This is an example of an implementation of the Bridge pattern.  The Bridge pattern is used when you want to de-couple to complicated parts of an object graph and manage them separately.  In the book we vary the bicycle classes along with some new paint classes.  Both are complicated.  They key to the bridge pattern is straightforward composition.
+
+## Check out the companion web site
+Visit the companion website for this book at [https://csharppatterns.dev](https://csharppatterns.dev)
