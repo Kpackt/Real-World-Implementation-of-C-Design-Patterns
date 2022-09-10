@@ -2,6 +2,7 @@
 ## Solve Daily Programming Challenges Using Elements of Reusable Object-Oriented Software
 ### A book written and illustrated by [Bruce M. Van Horn II, CSM](https://www.linkedin.com/in/brucevanhorn2/)
 
+![This is my cover idea.  It is a picture of the two main characters in the book, Kitty and Phoebe, standing in front of their robotic bicycle factory.  It might be different when the book is published.  I hope not though, I really like this design.](cover-idea.png)
 This is not your classic book with an academic treatment, instead the book will explore real-world applications of design patterns in C# which will be useful in your everyday work. The book will allow software developers to recognize & deliver solutions to the common challenges faced time and again during software design in C# across all industries.
 
 ## Check out the companion web site
