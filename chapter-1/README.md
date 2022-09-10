@@ -23,9 +23,6 @@ Visual Studio Code doesn't have a build / run feature.  Instead you use the comm
 5. Copy the sample file into the build folder.  This works consistently.  Sometimes Windows gets confused regarding path names.  ```copy ..\..\..\SampleInputData\nginx-sample.log .```
 6. Run the exe.  ```.\WebLogReporter.exe .\nginx-sample.log .\test.html```
 7. Verify the output.  It should say it processed 617 log lines assuming no changes to the input file or the code.
-[test](assets/chapter-1-weblog-run-test.m4v)
-### Works on my machine!
-
 
 ## Check out the companion web site
 Visit the companion website for this book at [https://csharppatterns.dev](https://csharppatterns.dev)
