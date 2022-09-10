@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using FactoryMethodExample;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Let's make some bicycles"); 
+ 
+var dallasBicycleFactory = new DallasCreator();
+var phoebesBike = dallasBicycleFactory.CreateProduct("HILLCREST"); 
+phoebesBike.Build(); 
+ 
+var alpineBicycleFactory = new AlpineCreator(); 
+var kittysBike = alpineBicycleFactory.CreateProduct("PALO DURO CANYON RANGER"); 
+kittysBike.Build();
