@@ -9,7 +9,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\chapter-3\BumbleBikesLibrary\BumbleBikesLibrary.csproj" />
-      <ProjectReference Include="..\..\chapter-3\BumblesBikesLibrary\BumblesBikesLibrary.csproj" />
     </ItemGroup>
 
 </Project>

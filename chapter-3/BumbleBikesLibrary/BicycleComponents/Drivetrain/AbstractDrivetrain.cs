@@ -1,5 +1,5 @@
 ﻿using System.Globalization;
-using BumblesBikesLibrary.BicycleComponents;
+using BumbleBikesLibrary.BicycleComponents;
 
 namespace BumbleBikesLibrary.BicycleComponents.Drivetrain;
 

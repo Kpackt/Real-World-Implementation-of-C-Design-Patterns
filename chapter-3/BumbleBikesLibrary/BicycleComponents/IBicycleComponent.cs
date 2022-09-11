@@ -1,4 +1,4 @@
-﻿namespace BumblesBikesLibrary.BicycleComponents;
+﻿namespace BumbleBikesLibrary.BicycleComponents;
 
 public interface IBicycleComponent
 {

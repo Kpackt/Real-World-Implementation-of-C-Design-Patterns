@@ -1,4 +1,4 @@
-﻿using BumblesBikesLibrary.BicycleComponents;
+﻿using BumbleBikesLibrary.BicycleComponents;
 
 namespace BumbleBikesLibrary.InsourcedBicycleComponents;
 
