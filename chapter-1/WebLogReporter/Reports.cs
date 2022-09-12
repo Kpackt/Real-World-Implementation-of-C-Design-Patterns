@@ -1,4 +1,6 @@
-﻿using System;
+﻿// before you get too far into this example, please review the README.md file.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

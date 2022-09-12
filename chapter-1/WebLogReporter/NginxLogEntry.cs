@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿// before you get too far into this example, please review the README.md file.
+using System.Globalization;
 
 namespace WebLogReporter
 {

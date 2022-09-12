@@ -1,4 +1,5 @@
-﻿using WebLogReporter;
+﻿// before you get too far into this example, please review the README.md file.
+using WebLogReporter;
 
 if (args.Length < 2)
 {
