@@ -4,16 +4,16 @@ public abstract class WheelchairComponent
 {
     protected float Weight { get; set; }
     protected float Price { get; set; }
-    public List<WheelchairComponent> Subcomponents { get; set; }
+    protected List<WheelchairComponent> Subcomponents { get; set; }
 
-    public WheelchairComponent()
+    protected WheelchairComponent()
     {
         Subcomponents = new List<WheelchairComponent>();
         Weight = 0.0f;
         Price = 0.0f;
     }
 
-    public void DisplayWeight()
+    protected void DisplayWeight()
     {
         if (!Subcomponents.Any()) return;
         foreach (var component in Subcomponents)
@@ -23,7 +23,7 @@ public abstract class WheelchairComponent
         }
     }
 
-    public void DisplayCost()
+    protected void DisplayCost()
     {
         if (!Subcomponents.Any()) return;
         foreach (var component in Subcomponents)
