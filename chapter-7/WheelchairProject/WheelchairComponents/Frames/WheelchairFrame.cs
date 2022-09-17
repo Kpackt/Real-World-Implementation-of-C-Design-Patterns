@@ -38,7 +38,10 @@ public abstract class WheelchairFrame : WheelchairComponent
             FixComposite();
         }
     }
-
+    
+    // FixComposite() clears out the list and adds the wheels whenever you change
+    // them via the accessor methods.  The composite pattern is maintained
+    // automatically.
     private void FixComposite()
     {
         Subcomponents.Clear();

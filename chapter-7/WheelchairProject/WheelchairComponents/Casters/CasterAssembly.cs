@@ -6,7 +6,7 @@ public abstract class CasterAssembly : WheelchairComponent
 {
     private MechanicalWheel _wheel;
 
-    public MechanicalWheel Wheel
+    protected MechanicalWheel Wheel
     {
         get => _wheel;
         set
@@ -16,7 +16,9 @@ public abstract class CasterAssembly : WheelchairComponent
             Subcomponents.Add(value);
         }
     }
-
+    protected string Swivel { get; set; }
     public string MountingType { get; set; }
     public float LoadCapacity { get; set; }
+    
+    // caster assembly is a leaf so it doesn't need a FixComposite() method.
 }

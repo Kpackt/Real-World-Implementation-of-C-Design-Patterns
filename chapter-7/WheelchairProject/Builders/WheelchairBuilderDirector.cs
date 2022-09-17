@@ -4,7 +4,8 @@ public class WheelchairBuilderDirector
 {
     private IWheelchairBuilder _builder;
     private static WheelchairBuilderDirector? _instance;
-    private WheelchairBuilderDirector(IWheelchairBuilder builder)
+
+    public WheelchairBuilderDirector(IWheelchairBuilder builder)
     {
         _builder = builder;
     }

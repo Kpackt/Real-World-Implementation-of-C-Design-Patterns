@@ -29,7 +29,14 @@ public class PlanoWheelchairBuilder : IWheelchairBuilder
     {
         _wheelchair.Frame = new PlanoWheelchairFrame();
     }
-    
+
+    public void BuildWheels()
+    {
+        _wheelchair.RightWheel = new StandardWheel();
+        _wheelchair.LeftWheel = new StandardWheel();
+        _wheelchair.Casters = new PlanoCasterAssembly(new CasterWheel());
+    }
+
 
     public void BuildAxleAssembly()
     {

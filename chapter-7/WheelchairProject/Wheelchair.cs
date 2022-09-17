@@ -32,6 +32,10 @@ public abstract class Wheelchair : WheelchairComponent, IManufacturable
         }
     }
     public IFramePainter FramePainter { get; set; } // doesn't need to be in the composite
+    
+    // FixComposite() clears out the list and adds the wheels whenever you change
+    // them via the accessor methods.  The composite pattern is maintained
+    // automatically.
     private void FixComposite()
     {
         Subcomponents.Clear();

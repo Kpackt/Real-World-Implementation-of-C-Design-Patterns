@@ -13,7 +13,7 @@ public abstract class WheelchairComponent
         Price = 0.0f;
     }
 
-    protected void DisplayWeight()
+    public void DisplayWeight()
     {
         if (!Subcomponents.Any()) return;
         foreach (var component in Subcomponents)
@@ -23,7 +23,7 @@ public abstract class WheelchairComponent
         }
     }
 
-    protected void DisplayCost()
+    public void DisplayCost()
     {
         if (!Subcomponents.Any()) return;
         foreach (var component in Subcomponents)
@@ -32,5 +32,4 @@ public abstract class WheelchairComponent
             component.DisplayCost();
         }
     }
-    
 }

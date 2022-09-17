@@ -2,10 +2,11 @@
 
 namespace WheelchairProject;
 
-public class PlanoWheelchair : Wheelchair
+public class PlanoWheelchair : UnpoweredChair
 {
     public override string ToString()
     {
         return "This is just a Plano Wheelchair";
     }
+    
 }
