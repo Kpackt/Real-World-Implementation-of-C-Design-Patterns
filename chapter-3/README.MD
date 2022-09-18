@@ -1,4 +1,5 @@
 ﻿# Real-World-Implementation-of-C-Design-Patterns
+![Kitty and Phoebe with one of their first bikes, and their first robots](kitty-and-phoebe-bikes-robots.png)
 ## Chapter 3 Getting Creative with Creation Patterns
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects
 with dependencies between each other in Visual Studio or Rider is pretty easy.  However, the structure
