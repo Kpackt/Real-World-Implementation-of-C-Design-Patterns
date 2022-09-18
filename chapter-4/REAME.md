@@ -1,4 +1,4 @@
-﻿# Real-World-Implementation-of-C-Design-Patterns
+﻿# Real World Implementation of C# Design Patterns 
 ## Chapter 4 Fortify Your Code with Structural Patterns
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects
 with dependencies between each other in Visual Studio or Rider is pretty easy.  However, the structure

@@ -1,4 +1,4 @@
-# Real World Implementation of C# Design Patterns
+# Real World Implementation of C# Design Patterns 
 ## Solve Daily Programming Challenges Using Elements of Reusable Object-Oriented Software
 ### A book written and illustrated by [Bruce M. Van Horn II, CSM](https://www.linkedin.com/in/brucevanhorn2/)
 

@@ -1,4 +1,4 @@
-﻿# Real-World-Implementation-of-C-Design-Patterns
+﻿# Real World Implementation of C# Design Patterns 
 ## Chapter 8: Now You Know Some Patterns, Now What?
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects
 with dependencies between each other in Visual Studio or Rider is pretty easy.  However, the structure

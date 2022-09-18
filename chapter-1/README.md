@@ -1,4 +1,4 @@
-﻿# Real-World-Implementation-of-C-Design-Patterns
+﻿# Real World Implementation of C# Design Patterns 
 ## Chapter 1 There's a Big Ball of Mud on Your Plate of Spaghetti
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects with dependencies between each other in Visual Studio or Rider is pretty easy.  However, the structure created by the IDE is a virtual structure and not a physical structure.  By this, I mean when you make a solution folder in the IDE and group a set of projects together, as I do with each chapter's code, it won't appear the same way in your file explorer as it does in the solution explorer within your IDE.  By extensions, this means links from chapters to the chapter's code in github won't work well either, because GitHub doesn't understand how to display virtual folders.
 
