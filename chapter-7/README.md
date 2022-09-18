@@ -1,5 +1,5 @@
 # Real World Implementation of C# Design Patterns 
-![Tom, Kitty, and Phoebe hard at work writing the code for this chapter.](kitty-phoebe-com-coding.png)
+![Tom, Kitty, and Phoebe hard at work writing the code for this chapter.](kitty-phoebe-tom-coding.png)
 
 ## Chapter 7 Nothing Left But the Typing:  Implementing the Wheelchair Project
 The code in this repository comes from my book on C# patterns.  Organizing a set of files and projects
