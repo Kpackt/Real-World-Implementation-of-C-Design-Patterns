@@ -41,13 +41,12 @@ public interface IBicycleProduct
 **Following is what you need for this book:**
 This book is for beginner and mid-level software developers who are looking to take their object-oriented programs or software designing skills to the next level by learning to leverage common patterns. A firm grasp of programming fundamentals and classical object-oriented programming (OOP) using languages like C#, C++, Objective-C, or Java is expected.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-8).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-10 | C# 10 | Windows |
-| 1-10 | .NET Core 6 | Windows |
-| 1-10 | Rider, Visual Studio, or Visual Studio Code | Windows |
+| 1-8 | C# 10,.NET Core 6, Rider, Visual Studio, or Visual Studio Code | Windows |
+| Appendix 1-2 | C# 10,.NET Core 6, Rider, Visual Studio, or Visual Studio Code  | Windows |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/3KWzG).
